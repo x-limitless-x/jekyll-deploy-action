@@ -5,7 +5,7 @@ LABEL author="Sujay Kundu"
 LABEL version="1.0.3"
 
 # Lets install all dependencies
-# including git and Bundler 2.2.29
+# including git and Bundler 2.3.13
 ENV BUNDLER_VERSION 2.3.13
 RUN apt-get update && \
     apt-get install --no-install-recommends -y \
