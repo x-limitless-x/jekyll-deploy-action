@@ -18,7 +18,7 @@ RUN apt-get update && \
     shellcheck \
     libffi7 \
     git-all \
-    && gem install bundler:2.3.13 \
+    && gem install bundler \
     && bundle config --global silence_root_warning 1
 
 # This is our entrypoint to our custom scripts
